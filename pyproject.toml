@@ -1,9 +1,10 @@
 [project]
 name = "pattimandram"
 version = "0.1.0"
-description = "A multi-LLM Pattimandram debate notebook"
+description = "A multi-LLM Pattimandram debate app and notebook"
 requires-python = ">=3.10"
 dependencies = [
+    "gradio>=5.0",
     "litellm",
     "openai",
     "python-dotenv>=1.2.4",
